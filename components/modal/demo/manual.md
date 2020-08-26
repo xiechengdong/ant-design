@@ -13,7 +13,7 @@ function success() {
     title: '这是一条通知信息',
     content: '一秒后自动移除',
   });
-  setTimeout(() => modal.destroy(), 1000);
+  setTimeout(() => modal.destroy(), 5000);
 }
 
 
